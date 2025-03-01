@@ -1,0 +1,59 @@
+/* Header styles */
+.header {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.header-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px; /* Reduced margin for closer positioning */
+}
+
+.header-title {
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color:gray;
+  width: 200px;
+}
+
+.header-title.focused {
+  background-color: #f2f2f2;
+  border: 1px solid lightgray;
+}
+
+.header-title:hover {
+  background-color: #f2f2f2;
+  border: 1px solid lightgray;
+}
+
+.page-actions-container {
+    display: flex;
+    align-items: flex-end;
+    padding: 8px 8px 0px 8px;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    width: 100%;
+  }
+  
+  .page-actions {
+    margin: 0 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding-top: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-actions-active {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 0 8px;
+  }
