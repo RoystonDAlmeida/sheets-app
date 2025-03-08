@@ -16,7 +16,6 @@ This project is a partial clone of Google Sheets, designed to provide essential 
 - **Formula Evaluation**: Evaluate mathematical formulas using infix to postfix conversion.
 
 ## Installation
---------------
 
 To use this Google Sheets clone, follow these steps:
 
@@ -54,8 +53,12 @@ npm start
 
 ### Evaluating Formulas
 
-1. Enter a formula in a cell using standard mathematical notation (e.g., `2+3*4`).
-2. The formula will be automatically converted to postfix notation and evaluated.
+1. Enter a formula in the formula bar using cell references(eg: B2 + B3)
+2. The formula will be automatically converted to postfix notation, evaluated and will be entered in the focused cell.
+
+### Image
+
+![alt text](<Screenshot from 2025-03-08 22-58-07.png>)
 
 ### Adding Background Fill
 
