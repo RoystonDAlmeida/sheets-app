@@ -58,7 +58,7 @@ npm start
 
 ### Image
 
-![alt text](<Screenshot from 2025-03-08 22-58-07.png>)
+<img src = "./images/Output.png" alt = "Output Pic" width = "400" height = "200">
 
 ### Adding Background Fill
 
