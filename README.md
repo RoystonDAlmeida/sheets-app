@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Google Sheets Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This project is a partial clone of Google Sheets, designed to provide essential features for creating and managing spreadsheets. It allows users to add text to cells, modify text size and style, apply bold, italic, and underline formatting, align text within cells, add background fill, and evaluate formulas using infix to postfix conversion.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Text Editing**: Users can add and edit text within cells.
+- **Text Formatting**:
+  - **Size**: Modify the size of the text.
+  - **Style**: Change the font style.
+  - **Bold**, **Italic**, and **Underline**: Apply these formats to the text.
+- **Text Alignment**: Align text horizontally and vertically within cells.
+- **Background Fill**: Add background colors to cells.
+- **Formula Evaluation**: Evaluate mathematical formulas using infix to postfix conversion.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+--------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use this Google Sheets clone, follow these steps:
 
-### `npm test`
+1. Clone the repository.
+2. Install any required dependencies.
+3. Run the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Example Installation Commands
 
-### `npm run build`
+Clone the repository
+```bash
+git clone https://github.com/RoystonDAlmeida/sheets-app.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate to the project directory
+```bash
+cd sheets-app/
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install dependencies (if any)
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run the application
+```bash
+npm start
+```
 
-### `npm run eject`
+### Adding Text and Formatting
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Open the application and create a new spreadsheet(by clicking on the plus icon to the bottom left of the screen).
+2. Click on a cell to add text.
+3. Use the formatting options to change text size, style, and apply bold, italic, or underline.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Evaluating Formulas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Enter a formula in a cell using standard mathematical notation (e.g., `2+3*4`).
+2. The formula will be automatically converted to postfix notation and evaluated.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Adding Background Fill
 
-## Learn More
+1. Select a cell or group of cells.
+2. Choose a background color from the available options.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you have ideas for new features or improvements, please submit a pull request or open an issue.
